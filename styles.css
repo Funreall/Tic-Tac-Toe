@@ -1,0 +1,31 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100svh;
+}
+
+.tic-tac-toe {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+.row {
+  width: 300px;
+  height: 300px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: pink;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+  font-size: 3rem;
+}
